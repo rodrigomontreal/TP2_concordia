@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BE58C591FCB868F0094D9D8 /* fleches_a_droite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C521FCB868E0094D9D8 /* fleches_a_droite.png */; };
+		5BE58C5A1FCB868F0094D9D8 /* bouttom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C531FCB868E0094D9D8 /* bouttom.png */; };
+		5BE58C5B1FCB868F0094D9D8 /* cifrao.psd in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C541FCB868E0094D9D8 /* cifrao.psd */; };
+		5BE58C5C1FCB868F0094D9D8 /* logo_concordia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C551FCB868E0094D9D8 /* logo_concordia.png */; };
+		5BE58C5D1FCB868F0094D9D8 /* logo_png.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C561FCB868F0094D9D8 /* logo_png.png */; };
+		5BE58C5E1FCB868F0094D9D8 /* fleches_a_gauche.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C571FCB868F0094D9D8 /* fleches_a_gauche.png */; };
+		5BE58C5F1FCB868F0094D9D8 /* logo_lettres_concordia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C581FCB868F0094D9D8 /* logo_lettres_concordia.png */; };
+		9B54AF8E1FC85F6600E383A7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54AF8D1FC85F6600E383A7 /* UserDefaultsManager.swift */; };
 		9BED18A51FC8575700D54D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED18A41FC8575700D54D63 /* AppDelegate.swift */; };
 		9BED18A71FC8575700D54D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED18A61FC8575700D54D63 /* ViewController.swift */; };
 		9BED18AA1FC8575700D54D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BED18A81FC8575700D54D63 /* Main.storyboard */; };
 		9BED18AC1FC8575700D54D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BED18AB1FC8575700D54D63 /* Assets.xcassets */; };
 		9BED18AF1FC8575700D54D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BED18AD1FC8575700D54D63 /* LaunchScreen.storyboard */; };
+		9BED18B71FC8595E00D54D63 /* DeuxiemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED18B61FC8595D00D54D63 /* DeuxiemeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BE58C521FCB868E0094D9D8 /* fleches_a_droite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fleches_a_droite.png; sourceTree = "<group>"; };
+		5BE58C531FCB868E0094D9D8 /* bouttom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bouttom.png; sourceTree = "<group>"; };
+		5BE58C541FCB868E0094D9D8 /* cifrao.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = cifrao.psd; sourceTree = "<group>"; };
+		5BE58C551FCB868E0094D9D8 /* logo_concordia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_concordia.png; sourceTree = "<group>"; };
+		5BE58C561FCB868F0094D9D8 /* logo_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_png.png; sourceTree = "<group>"; };
+		5BE58C571FCB868F0094D9D8 /* fleches_a_gauche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fleches_a_gauche.png; sourceTree = "<group>"; };
+		5BE58C581FCB868F0094D9D8 /* logo_lettres_concordia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lettres_concordia.png; sourceTree = "<group>"; };
+		9B54AF8D1FC85F6600E383A7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		9BED18A11FC8575700D54D63 /* prototypeTP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prototypeTP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BED18A41FC8575700D54D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BED18A61FC8575700D54D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,7 @@
 		9BED18AB1FC8575700D54D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BED18AE1FC8575700D54D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BED18B01FC8575700D54D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BED18B61FC8595D00D54D63 /* DeuxiemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeuxiemeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B44BB261FCB5FFD0069F08A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5BE58C531FCB868E0094D9D8 /* bouttom.png */,
+				5BE58C541FCB868E0094D9D8 /* cifrao.psd */,
+				5BE58C521FCB868E0094D9D8 /* fleches_a_droite.png */,
+				5BE58C571FCB868F0094D9D8 /* fleches_a_gauche.png */,
+				5BE58C551FCB868E0094D9D8 /* logo_concordia.png */,
+				5BE58C581FCB868F0094D9D8 /* logo_lettres_concordia.png */,
+				5BE58C561FCB868F0094D9D8 /* logo_png.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		9BED18981FC8575700D54D63 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +86,11 @@
 		9BED18A31FC8575700D54D63 /* prototypeTP2 */ = {
 			isa = PBXGroup;
 			children = (
+				5B44BB261FCB5FFD0069F08A /* image */,
+				9B54AF8D1FC85F6600E383A7 /* UserDefaultsManager.swift */,
 				9BED18A41FC8575700D54D63 /* AppDelegate.swift */,
 				9BED18A61FC8575700D54D63 /* ViewController.swift */,
+				9BED18B61FC8595D00D54D63 /* DeuxiemeController.swift */,
 				9BED18A81FC8575700D54D63 /* Main.storyboard */,
 				9BED18AB1FC8575700D54D63 /* Assets.xcassets */,
 				9BED18AD1FC8575700D54D63 /* LaunchScreen.storyboard */,
@@ -124,8 +159,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BED18AF1FC8575700D54D63 /* LaunchScreen.storyboard in Resources */,
+				5BE58C5F1FCB868F0094D9D8 /* logo_lettres_concordia.png in Resources */,
+				5BE58C5A1FCB868F0094D9D8 /* bouttom.png in Resources */,
 				9BED18AC1FC8575700D54D63 /* Assets.xcassets in Resources */,
+				5BE58C5B1FCB868F0094D9D8 /* cifrao.psd in Resources */,
+				5BE58C5D1FCB868F0094D9D8 /* logo_png.png in Resources */,
+				5BE58C5E1FCB868F0094D9D8 /* fleches_a_gauche.png in Resources */,
+				5BE58C5C1FCB868F0094D9D8 /* logo_concordia.png in Resources */,
 				9BED18AA1FC8575700D54D63 /* Main.storyboard in Resources */,
+				5BE58C591FCB868F0094D9D8 /* fleches_a_droite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +180,8 @@
 			files = (
 				9BED18A71FC8575700D54D63 /* ViewController.swift in Sources */,
 				9BED18A51FC8575700D54D63 /* AppDelegate.swift in Sources */,
+				9B54AF8E1FC85F6600E383A7 /* UserDefaultsManager.swift in Sources */,
+				9BED18B71FC8595E00D54D63 /* DeuxiemeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
