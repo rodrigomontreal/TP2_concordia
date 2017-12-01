@@ -1,13 +1,17 @@
 
 import UIKit
 //--------------------------
-class DeuxiemeController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
+class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     //--------------------------
+    //Connection  tableView - type outlet
     @IBOutlet weak var course_grade_tableview: UITableView!
+    // connection pour afficher le nom du étudiante
     @IBOutlet weak var student_name_label: UILabel!
+    //connection champ pour ajouter le nom du course
     @IBOutlet weak var course_field: UITextField!
+    //connection champ pour ajouter le grade
     @IBOutlet weak var grade_field: UITextField!
-    
+    //connection champ pour afficher le moyenne final(regle de 3)
     @IBOutlet weak var average: UILabel!
     
     
@@ -27,7 +31,8 @@ class DeuxiemeController: UIViewController, UITableViewDelegate, UITableViewData
         student_name_label.text = userDefautsObj.getValue(theKey: "name") as? String
         loadUserDefaults()
         fillUpArray()
-        average.text = String(format: "%0.1f", average1(tabNotes: arrOfGrades, moyenne: {$0 / $1}))
+        //average.text = String(format: "Average: %0.1f", average_final(tabNotes: arrOfGrades, moyenne: {$0 / $1}))
+        average.text = verifAverage(dictDeNotes: moienne(), regleDe3:{ $0 * 100.0 / $1})
     }
     //--------------------------
     func fillUpArray() {
@@ -55,7 +60,7 @@ class DeuxiemeController: UIViewController, UITableViewDelegate, UITableViewData
         
         return cell
     }
-    
+    // TableView 
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCellEditingStyle.delete {
             let name = student_name_label.text
@@ -71,7 +76,8 @@ class DeuxiemeController: UIViewController, UITableViewDelegate, UITableViewData
     
  
     //--------------------------
-    func loadUserDefaults(){ //garder en mémoire studentGrades
+    
+    func loadUserDefaults(){
         if userDefautsObj.doesKeyExist(theKey: "grades"){
             studentGrades = userDefautsObj.getValue(theKey: "grades") as!
                 [studentName: [course: grade]]
@@ -80,7 +86,8 @@ class DeuxiemeController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
  //--------------------------
-    @IBAction func ssave_corse_and_grade(_ sender: UIButton) {
+    //Button pour ajouter le course et le grade à chaque étudiante
+    @IBAction func save_corse_and_grade(_ sender: UIButton) {
         let name = student_name_label.text!
         var student_courses = studentGrades[name]!
         student_courses[course_field.text!] = Double(grade_field.text!)
@@ -88,21 +95,90 @@ class DeuxiemeController: UIViewController, UITableViewDelegate, UITableViewData
         userDefautsObj.setKey(theValue: studentGrades as AnyObject, theKey: "grades")
         fillUpArray()
         course_grade_tableview.reloadData()
+        average.text = verifAverage(dictDeNotes: moienne(), regleDe3:{ $0 * 100.0 / $1})
     }
     
-    //-------
+    //-------   
   
     //Méthode reduce - faire moyenne
-    
-    func average1(tabNotes: [Double], moyenne: (_ sum: Double, _ nombreDeNotes: Double) -> Double) -> Double {
-        let somme = tabNotes.reduce(0, +)
-        let resultat = moyenne(somme, Double(tabNotes.count ))
-        return resultat
+ /*
+        func average_final(tabNotes: [Double], moyenne: (_ sum: Double, _ nombreDeNotes: Double) -> Double) -> Double {
+            let somme = tabNotes.reduce(0, +)
+            let resultat = moyenne(somme, Double(tabNotes.count ))
+            return resultat
         
     }
+  */
+ //---------
+    //Le code pour calculer le regle de 3
+    func verifAverage(dictDeNotes: [Double: Double], regleDe3: (_ somme: Double, _ sur: Double) -> Double) -> String{
+        
+        let sommeNotes = [Double](dictDeNotes.keys).reduce(0, +)
+        let sommesur = [Double](dictDeNotes.values).reduce(0, +)
+        let conversion = regleDe3(sommeNotes, sommesur)
+        return String(format: "Average = %0.1f/%0.1f or %0.1f/100", sommeNotes, sommesur, conversion)
+        
+    }
+    //fonction pour calculer la moyenne
+    func moienne () ->  [Double: Double] {
+        let average = arrOfGrades.reduce(0, +)
+        let somme = arrOfGrades.count
+        let moienne = Double(average/Double(somme))
+        let dictNotes = [moienne: 10.0]
+        return dictNotes
+    }
+    
+    //---
+}
     
     
-//===================
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   /*
     func average(arrOfGrades: [Double], moyenne: (_ sum: Double, _ nombreDeNotes: Double) -> Double) -> Double {
@@ -134,5 +210,5 @@ class DeuxiemeController: UIViewController, UITableViewDelegate, UITableViewData
     
     
    //--------------------------
-}
+
 

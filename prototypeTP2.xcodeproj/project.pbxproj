@@ -9,28 +9,104 @@
 /* Begin PBXBuildFile section */
 		5BE58C591FCB868F0094D9D8 /* fleches_a_droite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C521FCB868E0094D9D8 /* fleches_a_droite.png */; };
 		5BE58C5A1FCB868F0094D9D8 /* bouttom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C531FCB868E0094D9D8 /* bouttom.png */; };
-		5BE58C5B1FCB868F0094D9D8 /* cifrao.psd in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C541FCB868E0094D9D8 /* cifrao.psd */; };
 		5BE58C5C1FCB868F0094D9D8 /* logo_concordia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C551FCB868E0094D9D8 /* logo_concordia.png */; };
 		5BE58C5D1FCB868F0094D9D8 /* logo_png.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C561FCB868F0094D9D8 /* logo_png.png */; };
 		5BE58C5E1FCB868F0094D9D8 /* fleches_a_gauche.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C571FCB868F0094D9D8 /* fleches_a_gauche.png */; };
 		5BE58C5F1FCB868F0094D9D8 /* logo_lettres_concordia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE58C581FCB868F0094D9D8 /* logo_lettres_concordia.png */; };
+		5BF5CD781FD0E8E400B0C451 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD5A1FD0E8E100B0C451 /* Icon-120.png */; };
+		5BF5CD791FD0E8E400B0C451 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD5B1FD0E8E200B0C451 /* Icon-60.png */; };
+		5BF5CD7A1FD0E8E400B0C451 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD5C1FD0E8E200B0C451 /* Icon-76.png */; };
+		5BF5CD7B1FD0E8E400B0C451 /* Icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD5D1FD0E8E200B0C451 /* Icon-64.png */; };
+		5BF5CD7C1FD0E8E400B0C451 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD5E1FD0E8E200B0C451 /* Icon-144.png */; };
+		5BF5CD7D1FD0E8E400B0C451 /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD5F1FD0E8E200B0C451 /* Icon-32.png */; };
+		5BF5CD7E1FD0E8E400B0C451 /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD601FD0E8E200B0C451 /* Icon-16.png */; };
+		5BF5CD7F1FD0E8E400B0C451 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD611FD0E8E200B0C451 /* Icon-57.png */; };
+		5BF5CD801FD0E8E400B0C451 /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD621FD0E8E200B0C451 /* Icon-128.png */; };
+		5BF5CD811FD0E8E400B0C451 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD631FD0E8E200B0C451 /* Icon-29.png */; };
+		5BF5CD821FD0E8E400B0C451 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD641FD0E8E200B0C451 /* Icon-1024.png */; };
+		5BF5CD831FD0E8E400B0C451 /* Icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD651FD0E8E200B0C451 /* Icon-48.png */; };
+		5BF5CD841FD0E8E400B0C451 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD661FD0E8E200B0C451 /* Icon-40.png */; };
+		5BF5CD851FD0E8E400B0C451 /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD671FD0E8E200B0C451 /* Icon-20.png */; };
+		5BF5CD861FD0E8E400B0C451 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD681FD0E8E200B0C451 /* Icon-80.png */; };
+		5BF5CD871FD0E8E400B0C451 /* Icon-55.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD691FD0E8E200B0C451 /* Icon-55.png */; };
+		5BF5CD881FD0E8E400B0C451 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD6A1FD0E8E200B0C451 /* Icon-100.png */; };
+		5BF5CD891FD0E8E400B0C451 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD6B1FD0E8E300B0C451 /* Icon-152.png */; };
+		5BF5CD8A1FD0E8E400B0C451 /* Icon-172.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD6C1FD0E8E300B0C451 /* Icon-172.png */; };
+		5BF5CD8B1FD0E8E400B0C451 /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD6D1FD0E8E300B0C451 /* Icon-180.png */; };
+		5BF5CD8C1FD0E8E400B0C451 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD6E1FD0E8E300B0C451 /* Icon-256.png */; };
+		5BF5CD8D1FD0E8E400B0C451 /* Icon-196.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD6F1FD0E8E300B0C451 /* Icon-196.png */; };
+		5BF5CD8E1FD0E8E400B0C451 /* Icon-88.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD701FD0E8E300B0C451 /* Icon-88.png */; };
+		5BF5CD8F1FD0E8E400B0C451 /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD711FD0E8E300B0C451 /* Icon-87.png */; };
+		5BF5CD901FD0E8E400B0C451 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD721FD0E8E300B0C451 /* Icon-114.png */; };
+		5BF5CD911FD0E8E400B0C451 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD731FD0E8E300B0C451 /* Icon-512.png */; };
+		5BF5CD921FD0E8E400B0C451 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD741FD0E8E300B0C451 /* Icon-50.png */; };
+		5BF5CD931FD0E8E400B0C451 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD751FD0E8E300B0C451 /* Icon-72.png */; };
+		5BF5CD941FD0E8E400B0C451 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD761FD0E8E300B0C451 /* Icon-58.png */; };
+		5BF5CD951FD0E8E400B0C451 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5CD771FD0E8E400B0C451 /* Icon-167.png */; };
+		9B11C9371FCF1A3700A2E3BE /* button_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C9321FCF1A3500A2E3BE /* button_gris.png */; };
+		9B11C9381FCF1A3700A2E3BE /* logo_concordia_jaune.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C9331FCF1A3600A2E3BE /* logo_concordia_jaune.png */; };
+		9B11C9391FCF1A3700A2E3BE /* logo_concordia_jaune2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C9341FCF1A3600A2E3BE /* logo_concordia_jaune2.png */; };
+		9B11C93A1FCF1A3700A2E3BE /* fleches_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C9351FCF1A3600A2E3BE /* fleches_gris.png */; };
+		9B11C93B1FCF1A3700A2E3BE /* logo_concordia_seul_jaune.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C9361FCF1A3600A2E3BE /* logo_concordia_seul_jaune.png */; };
+		9B11C9421FCF205800A2E3BE /* Champagne & Limousines Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C93E1FCF205600A2E3BE /* Champagne & Limousines Bold.ttf */; };
+		9B11C9431FCF205800A2E3BE /* Champagne & Limousines Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C93F1FCF205600A2E3BE /* Champagne & Limousines Bold Italic.ttf */; };
+		9B11C9441FCF205800A2E3BE /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C9401FCF205700A2E3BE /* Champagne & Limousines.ttf */; };
+		9B11C9451FCF205800A2E3BE /* Champagne & Limousines Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B11C9411FCF205700A2E3BE /* Champagne & Limousines Italic.ttf */; };
 		9B54AF8E1FC85F6600E383A7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54AF8D1FC85F6600E383A7 /* UserDefaultsManager.swift */; };
 		9BED18A51FC8575700D54D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED18A41FC8575700D54D63 /* AppDelegate.swift */; };
 		9BED18A71FC8575700D54D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED18A61FC8575700D54D63 /* ViewController.swift */; };
 		9BED18AA1FC8575700D54D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BED18A81FC8575700D54D63 /* Main.storyboard */; };
 		9BED18AC1FC8575700D54D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BED18AB1FC8575700D54D63 /* Assets.xcassets */; };
 		9BED18AF1FC8575700D54D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BED18AD1FC8575700D54D63 /* LaunchScreen.storyboard */; };
-		9BED18B71FC8595E00D54D63 /* DeuxiemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED18B61FC8595D00D54D63 /* DeuxiemeController.swift */; };
+		9BED18B71FC8595E00D54D63 /* Interface2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED18B61FC8595D00D54D63 /* Interface2Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BE58C521FCB868E0094D9D8 /* fleches_a_droite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fleches_a_droite.png; sourceTree = "<group>"; };
 		5BE58C531FCB868E0094D9D8 /* bouttom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bouttom.png; sourceTree = "<group>"; };
-		5BE58C541FCB868E0094D9D8 /* cifrao.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = cifrao.psd; sourceTree = "<group>"; };
 		5BE58C551FCB868E0094D9D8 /* logo_concordia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_concordia.png; sourceTree = "<group>"; };
 		5BE58C561FCB868F0094D9D8 /* logo_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_png.png; sourceTree = "<group>"; };
 		5BE58C571FCB868F0094D9D8 /* fleches_a_gauche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fleches_a_gauche.png; sourceTree = "<group>"; };
 		5BE58C581FCB868F0094D9D8 /* logo_lettres_concordia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lettres_concordia.png; sourceTree = "<group>"; };
+		5BF5CD5A1FD0E8E100B0C451 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		5BF5CD5B1FD0E8E200B0C451 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		5BF5CD5C1FD0E8E200B0C451 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		5BF5CD5D1FD0E8E200B0C451 /* Icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-64.png"; sourceTree = "<group>"; };
+		5BF5CD5E1FD0E8E200B0C451 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		5BF5CD5F1FD0E8E200B0C451 /* Icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-32.png"; sourceTree = "<group>"; };
+		5BF5CD601FD0E8E200B0C451 /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-16.png"; sourceTree = "<group>"; };
+		5BF5CD611FD0E8E200B0C451 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		5BF5CD621FD0E8E200B0C451 /* Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-128.png"; sourceTree = "<group>"; };
+		5BF5CD631FD0E8E200B0C451 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		5BF5CD641FD0E8E200B0C451 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
+		5BF5CD651FD0E8E200B0C451 /* Icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-48.png"; sourceTree = "<group>"; };
+		5BF5CD661FD0E8E200B0C451 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		5BF5CD671FD0E8E200B0C451 /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20.png"; sourceTree = "<group>"; };
+		5BF5CD681FD0E8E200B0C451 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		5BF5CD691FD0E8E200B0C451 /* Icon-55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-55.png"; sourceTree = "<group>"; };
+		5BF5CD6A1FD0E8E200B0C451 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
+		5BF5CD6B1FD0E8E300B0C451 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		5BF5CD6C1FD0E8E300B0C451 /* Icon-172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-172.png"; sourceTree = "<group>"; };
+		5BF5CD6D1FD0E8E300B0C451 /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-180.png"; sourceTree = "<group>"; };
+		5BF5CD6E1FD0E8E300B0C451 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
+		5BF5CD6F1FD0E8E300B0C451 /* Icon-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-196.png"; sourceTree = "<group>"; };
+		5BF5CD701FD0E8E300B0C451 /* Icon-88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-88.png"; sourceTree = "<group>"; };
+		5BF5CD711FD0E8E300B0C451 /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-87.png"; sourceTree = "<group>"; };
+		5BF5CD721FD0E8E300B0C451 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		5BF5CD731FD0E8E300B0C451 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
+		5BF5CD741FD0E8E300B0C451 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		5BF5CD751FD0E8E300B0C451 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5BF5CD761FD0E8E300B0C451 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		5BF5CD771FD0E8E400B0C451 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		9B11C9321FCF1A3500A2E3BE /* button_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_gris.png; sourceTree = "<group>"; };
+		9B11C9331FCF1A3600A2E3BE /* logo_concordia_jaune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_concordia_jaune.png; sourceTree = "<group>"; };
+		9B11C9341FCF1A3600A2E3BE /* logo_concordia_jaune2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_concordia_jaune2.png; sourceTree = "<group>"; };
+		9B11C9351FCF1A3600A2E3BE /* fleches_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fleches_gris.png; sourceTree = "<group>"; };
+		9B11C9361FCF1A3600A2E3BE /* logo_concordia_seul_jaune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_concordia_seul_jaune.png; sourceTree = "<group>"; };
+		9B11C93E1FCF205600A2E3BE /* Champagne & Limousines Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines Bold.ttf"; sourceTree = "<group>"; };
+		9B11C93F1FCF205600A2E3BE /* Champagne & Limousines Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines Bold Italic.ttf"; sourceTree = "<group>"; };
+		9B11C9401FCF205700A2E3BE /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
+		9B11C9411FCF205700A2E3BE /* Champagne & Limousines Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines Italic.ttf"; sourceTree = "<group>"; };
 		9B54AF8D1FC85F6600E383A7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		9BED18A11FC8575700D54D63 /* prototypeTP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prototypeTP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BED18A41FC8575700D54D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +115,7 @@
 		9BED18AB1FC8575700D54D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BED18AE1FC8575700D54D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BED18B01FC8575700D54D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BED18B61FC8595D00D54D63 /* DeuxiemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeuxiemeController.swift; sourceTree = "<group>"; };
+		9BED18B61FC8595D00D54D63 /* Interface2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interface2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +132,12 @@
 		5B44BB261FCB5FFD0069F08A /* image */ = {
 			isa = PBXGroup;
 			children = (
+				9B11C9321FCF1A3500A2E3BE /* button_gris.png */,
+				9B11C9351FCF1A3600A2E3BE /* fleches_gris.png */,
+				9B11C9331FCF1A3600A2E3BE /* logo_concordia_jaune.png */,
+				9B11C9341FCF1A3600A2E3BE /* logo_concordia_jaune2.png */,
+				9B11C9361FCF1A3600A2E3BE /* logo_concordia_seul_jaune.png */,
 				5BE58C531FCB868E0094D9D8 /* bouttom.png */,
-				5BE58C541FCB868E0094D9D8 /* cifrao.psd */,
 				5BE58C521FCB868E0094D9D8 /* fleches_a_droite.png */,
 				5BE58C571FCB868F0094D9D8 /* fleches_a_gauche.png */,
 				5BE58C551FCB868E0094D9D8 /* logo_concordia.png */,
@@ -65,6 +145,54 @@
 				5BE58C561FCB868F0094D9D8 /* logo_png.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		9B11C93D1FCF203C00A2E3BE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B11C93F1FCF205600A2E3BE /* Champagne & Limousines Bold Italic.ttf */,
+				9B11C93E1FCF205600A2E3BE /* Champagne & Limousines Bold.ttf */,
+				9B11C9411FCF205700A2E3BE /* Champagne & Limousines Italic.ttf */,
+				9B11C9401FCF205700A2E3BE /* Champagne & Limousines.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		9B11C9461FCF621800A2E3BE /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				5BF5CD601FD0E8E200B0C451 /* Icon-16.png */,
+				5BF5CD671FD0E8E200B0C451 /* Icon-20.png */,
+				5BF5CD631FD0E8E200B0C451 /* Icon-29.png */,
+				5BF5CD5F1FD0E8E200B0C451 /* Icon-32.png */,
+				5BF5CD661FD0E8E200B0C451 /* Icon-40.png */,
+				5BF5CD651FD0E8E200B0C451 /* Icon-48.png */,
+				5BF5CD741FD0E8E300B0C451 /* Icon-50.png */,
+				5BF5CD691FD0E8E200B0C451 /* Icon-55.png */,
+				5BF5CD611FD0E8E200B0C451 /* Icon-57.png */,
+				5BF5CD761FD0E8E300B0C451 /* Icon-58.png */,
+				5BF5CD5B1FD0E8E200B0C451 /* Icon-60.png */,
+				5BF5CD5D1FD0E8E200B0C451 /* Icon-64.png */,
+				5BF5CD751FD0E8E300B0C451 /* Icon-72.png */,
+				5BF5CD5C1FD0E8E200B0C451 /* Icon-76.png */,
+				5BF5CD681FD0E8E200B0C451 /* Icon-80.png */,
+				5BF5CD711FD0E8E300B0C451 /* Icon-87.png */,
+				5BF5CD701FD0E8E300B0C451 /* Icon-88.png */,
+				5BF5CD6A1FD0E8E200B0C451 /* Icon-100.png */,
+				5BF5CD721FD0E8E300B0C451 /* Icon-114.png */,
+				5BF5CD5A1FD0E8E100B0C451 /* Icon-120.png */,
+				5BF5CD621FD0E8E200B0C451 /* Icon-128.png */,
+				5BF5CD5E1FD0E8E200B0C451 /* Icon-144.png */,
+				5BF5CD6B1FD0E8E300B0C451 /* Icon-152.png */,
+				5BF5CD771FD0E8E400B0C451 /* Icon-167.png */,
+				5BF5CD6C1FD0E8E300B0C451 /* Icon-172.png */,
+				5BF5CD6D1FD0E8E300B0C451 /* Icon-180.png */,
+				5BF5CD6F1FD0E8E300B0C451 /* Icon-196.png */,
+				5BF5CD6E1FD0E8E300B0C451 /* Icon-256.png */,
+				5BF5CD731FD0E8E300B0C451 /* Icon-512.png */,
+				5BF5CD641FD0E8E200B0C451 /* Icon-1024.png */,
+			);
+			path = icon;
 			sourceTree = "<group>";
 		};
 		9BED18981FC8575700D54D63 = {
@@ -86,11 +214,13 @@
 		9BED18A31FC8575700D54D63 /* prototypeTP2 */ = {
 			isa = PBXGroup;
 			children = (
+				9B11C9461FCF621800A2E3BE /* icon */,
+				9B11C93D1FCF203C00A2E3BE /* fonts */,
 				5B44BB261FCB5FFD0069F08A /* image */,
 				9B54AF8D1FC85F6600E383A7 /* UserDefaultsManager.swift */,
 				9BED18A41FC8575700D54D63 /* AppDelegate.swift */,
 				9BED18A61FC8575700D54D63 /* ViewController.swift */,
-				9BED18B61FC8595D00D54D63 /* DeuxiemeController.swift */,
+				9BED18B61FC8595D00D54D63 /* Interface2Controller.swift */,
 				9BED18A81FC8575700D54D63 /* Main.storyboard */,
 				9BED18AB1FC8575700D54D63 /* Assets.xcassets */,
 				9BED18AD1FC8575700D54D63 /* LaunchScreen.storyboard */,
@@ -158,16 +288,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF5CD7F1FD0E8E400B0C451 /* Icon-57.png in Resources */,
+				5BF5CD8C1FD0E8E400B0C451 /* Icon-256.png in Resources */,
+				5BF5CD921FD0E8E400B0C451 /* Icon-50.png in Resources */,
+				5BF5CD931FD0E8E400B0C451 /* Icon-72.png in Resources */,
+				9B11C93B1FCF1A3700A2E3BE /* logo_concordia_seul_jaune.png in Resources */,
+				9B11C9451FCF205800A2E3BE /* Champagne & Limousines Italic.ttf in Resources */,
+				5BF5CD821FD0E8E400B0C451 /* Icon-1024.png in Resources */,
+				9B11C9391FCF1A3700A2E3BE /* logo_concordia_jaune2.png in Resources */,
+				9B11C93A1FCF1A3700A2E3BE /* fleches_gris.png in Resources */,
+				5BF5CD871FD0E8E400B0C451 /* Icon-55.png in Resources */,
 				9BED18AF1FC8575700D54D63 /* LaunchScreen.storyboard in Resources */,
+				5BF5CD8E1FD0E8E400B0C451 /* Icon-88.png in Resources */,
 				5BE58C5F1FCB868F0094D9D8 /* logo_lettres_concordia.png in Resources */,
+				5BF5CD811FD0E8E400B0C451 /* Icon-29.png in Resources */,
 				5BE58C5A1FCB868F0094D9D8 /* bouttom.png in Resources */,
 				9BED18AC1FC8575700D54D63 /* Assets.xcassets in Resources */,
-				5BE58C5B1FCB868F0094D9D8 /* cifrao.psd in Resources */,
+				5BF5CD8D1FD0E8E400B0C451 /* Icon-196.png in Resources */,
+				9B11C9371FCF1A3700A2E3BE /* button_gris.png in Resources */,
 				5BE58C5D1FCB868F0094D9D8 /* logo_png.png in Resources */,
+				5BF5CD951FD0E8E400B0C451 /* Icon-167.png in Resources */,
+				5BF5CD791FD0E8E400B0C451 /* Icon-60.png in Resources */,
+				5BF5CD941FD0E8E400B0C451 /* Icon-58.png in Resources */,
+				9B11C9381FCF1A3700A2E3BE /* logo_concordia_jaune.png in Resources */,
+				5BF5CD841FD0E8E400B0C451 /* Icon-40.png in Resources */,
+				5BF5CD781FD0E8E400B0C451 /* Icon-120.png in Resources */,
+				5BF5CD911FD0E8E400B0C451 /* Icon-512.png in Resources */,
+				9B11C9421FCF205800A2E3BE /* Champagne & Limousines Bold.ttf in Resources */,
+				5BF5CD7E1FD0E8E400B0C451 /* Icon-16.png in Resources */,
+				9B11C9441FCF205800A2E3BE /* Champagne & Limousines.ttf in Resources */,
+				9B11C9431FCF205800A2E3BE /* Champagne & Limousines Bold Italic.ttf in Resources */,
 				5BE58C5E1FCB868F0094D9D8 /* fleches_a_gauche.png in Resources */,
+				5BF5CD851FD0E8E400B0C451 /* Icon-20.png in Resources */,
+				5BF5CD7D1FD0E8E400B0C451 /* Icon-32.png in Resources */,
+				5BF5CD891FD0E8E400B0C451 /* Icon-152.png in Resources */,
+				5BF5CD7A1FD0E8E400B0C451 /* Icon-76.png in Resources */,
+				5BF5CD7B1FD0E8E400B0C451 /* Icon-64.png in Resources */,
 				5BE58C5C1FCB868F0094D9D8 /* logo_concordia.png in Resources */,
+				5BF5CD7C1FD0E8E400B0C451 /* Icon-144.png in Resources */,
+				5BF5CD8B1FD0E8E400B0C451 /* Icon-180.png in Resources */,
+				5BF5CD901FD0E8E400B0C451 /* Icon-114.png in Resources */,
+				5BF5CD831FD0E8E400B0C451 /* Icon-48.png in Resources */,
+				5BF5CD8F1FD0E8E400B0C451 /* Icon-87.png in Resources */,
 				9BED18AA1FC8575700D54D63 /* Main.storyboard in Resources */,
+				5BF5CD801FD0E8E400B0C451 /* Icon-128.png in Resources */,
 				5BE58C591FCB868F0094D9D8 /* fleches_a_droite.png in Resources */,
+				5BF5CD881FD0E8E400B0C451 /* Icon-100.png in Resources */,
+				5BF5CD861FD0E8E400B0C451 /* Icon-80.png in Resources */,
+				5BF5CD8A1FD0E8E400B0C451 /* Icon-172.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +349,7 @@
 				9BED18A71FC8575700D54D63 /* ViewController.swift in Sources */,
 				9BED18A51FC8575700D54D63 /* AppDelegate.swift in Sources */,
 				9B54AF8E1FC85F6600E383A7 /* UserDefaultsManager.swift in Sources */,
-				9BED18B71FC8595E00D54D63 /* DeuxiemeController.swift in Sources */,
+				9BED18B71FC8595E00D54D63 /* Interface2Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
