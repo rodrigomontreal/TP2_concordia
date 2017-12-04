@@ -20,6 +20,8 @@ class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDa
     typealias grade = Double
     
      //--------------------------
+    //Les constantes e variables
+    
     let userDefautsObj = UserDefaultsManager()
     var studentGrades: [studentName: [course: grade]]!
     var ArrOfCourses: [course]!
@@ -35,6 +37,7 @@ class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDa
         average.text = verifAverage(dictDeNotes: moienne(), regleDe3:{ $0 * 100.0 / $1})
     }
     //--------------------------
+    //Au choisir le nom d' étudiante sur l'interface 1 je peux ajouter les course(clé) et le grade(valeur)
     func fillUpArray() {
     let name = student_name_label.text
     let courses_and_grades = studentGrades[name!]
@@ -42,8 +45,8 @@ class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDa
     arrOfGrades = [grade](courses_and_grades!.values)
     }
     
-    
     //--------------------------
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ArrOfCourses.count
     }
@@ -67,13 +70,13 @@ class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDa
             var courses_and_grades = studentGrades[name!]!
             let note = [course](courses_and_grades.keys)[indexPath.row]
             courses_and_grades[note] = nil
-            studentGrades[name!] = courses_and_grades
+            studentGrades[name!] = courses_and_grades // chaque nom avec un course et un grade
             userDefautsObj.setKey(theValue: studentGrades as AnyObject, theKey: "grades")
-            fillUpArray()
-            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableViewRowAnimation.automatic)
+            fillUpArray() // appeler le fonction fillUpArray
+            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableViewRowAnimation.automatic)// suprimer les informations de cours et notes
         }
     }
-    
+   
  
     //--------------------------
     
@@ -110,10 +113,10 @@ class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDa
     }
   */
  //---------
-    //Le code pour calculer le regle de 3
+    //Le fonction pour calculer moyane avec le regle de 3
     func verifAverage(dictDeNotes: [Double: Double], regleDe3: (_ somme: Double, _ sur: Double) -> Double) -> String{
         
-        let sommeNotes = [Double](dictDeNotes.keys).reduce(0, +)
+        let sommeNotes = [Double](dictDeNotes.keys).reduce(0, +)//méthode reduce - cours 12 de Mario
         let sommesur = [Double](dictDeNotes.values).reduce(0, +)
         let conversion = regleDe3(sommeNotes, sommesur)
         return String(format: "Average = %0.1f/%0.1f or %0.1f/100", sommeNotes, sommesur, conversion)
@@ -177,38 +180,5 @@ class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDa
     
     
     
-    
-    
-    
-  /*
-    func average(arrOfGrades: [Double], moyenne: (_ sum: Double, _ nombreDeNotes: Double) -> Double) -> Double {
-        let somme = arrOfGrades.reduce(0, +)
-        let resultat = moyenne(somme, Double(arrOfGrades.count))
-        return resultat
-    }
-    
-    let moyenne = String(format: "%0.1f", average(arrOfGrades: grade, moyenne: {$0 / $1}))
-    
-   // print(this)
-    */
-  //-----
-  //produit croise
-    /*
-    func produitCroise(dictDeNotes: [Double: Double],
-                       regleDe3:(_ somme: Double, _ sur:Double) -> Double) ->
-        String{
-        let sommeNotes = [Double](dictDeNotes.keys).reduce(0, +)
-        let sommeSur = [Double](dictDeNotes.values).reduce(0, +)
-        let conversion = regleDe3(sommeNotes, sommeSur)
-            return String(format: "Grade = %0.1f/%0.1f or %0.1f/100",
-            sommeNotes, sommeSur, conversion)
-            }
-   // let dictNotes = [12.5: 20.0, 13.8: 20.0, 55.3: 50.0, 77.4: 100.0]
-  //  print(produitCroise(dictdeNotes: dictNotes){ $0 * 100.0 / $1 })
-    
-*/
-    
-    
-   //--------------------------
-
+ 
 
