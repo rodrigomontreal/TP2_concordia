@@ -50,7 +50,7 @@ class Interface2Controller: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ArrOfCourses.count
     }
-    
+    // table pour afficher le cours et grade, a defini une tag pour le cours et autre pour le grade
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = course_grade_tableview.dequeueReusableCell(withIdentifier: "proto")!
         if let aCourse = cell.viewWithTag(100) as! UILabel! {
